@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Create Account</title>
-    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <h2>Create Account</h2><br>

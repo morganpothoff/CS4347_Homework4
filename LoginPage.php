@@ -2,7 +2,7 @@
 <html>    
 <head>    
     <title>Login Form</title>    
-    <link rel="stylesheet" type="text/css" href="static/style.css">    
+    <link rel="stylesheet" type="text/css" href="style.css">    
 </head>    
 <body>    
     <h2>Login Page</h2><br>    
@@ -13,7 +13,7 @@
         </label>    
         <input type="text" name="Uname" id="Uname" placeholder="Username">    
         <br><br>    
-        <label><b>Password     
+        <label><b>Passwords   
         </b>    
         </label>    
         <input type="Password" name="Pass" id="Pass" placeholder="Password">    
