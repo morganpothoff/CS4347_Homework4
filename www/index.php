@@ -28,7 +28,10 @@
     {
     	// HTML output for webpage without a logged in account
     	?>
-    		Please login <a href="/LoginPage.php">here</a>
+    		<p>Please login <a href="/LoginPage.php">here</a></p>
+			<p><a href="/databaseSearchForm.php">Form: Search Database</a></p>
+			<p><a href="/ActiveRoster.php">League Roster</a></p>
+			<p><a href="/test.php">Test Connection</a></p>
     	<?php
     }
 ?>

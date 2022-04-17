@@ -41,10 +41,17 @@
             $password = $_POST["Pass"];
         }
 
-
+		
         // TODO: Get values from DB
+		//prepared statement
+		$stmt = $dbh->prepare("select * from Users where username=?");
+		$stmt->bindParam(1, $username);
+		$stmt->execute([$_GET['password']]);
+		
+		$row_data = pg_fetch_row($stmt);
+			
         // TODO: Compare form values with DB values
-
+		if($row_data[0] != $password) return false;
 
         // Stores username of user newly logged in 
         $_SESSION["Uname"] = $username;
